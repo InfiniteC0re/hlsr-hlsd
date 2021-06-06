@@ -1,0 +1,8 @@
+{
+  "name": "hlsr-hlsd",
+  "version": "1.0.0",
+  "dependencies": {
+    "binary-file": "^0.2.3",
+    "windows-1251": "^1.0.0"
+  }
+}
