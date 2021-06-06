@@ -86,7 +86,7 @@ module.exports = {
       const fs = require("fs");
 
       if (!fs.existsSync(filePath)) return rej("no file");
-      const file = new BinaryFile("./ARCHIVE.HLSD", "r", true);
+      const file = new BinaryFile(filePath, "r", true);
 
       (async function () {
         await file.open();
